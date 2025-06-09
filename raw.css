@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li.atual{
+    background-color: bisque;
+}
+.atual{
+    background-color: aqua;
+}
+li.atual a{
+    color:darkcyan
+}
+table{
+    border-collapse: collapse; /*tira o espaçamento entre células*/
+    max-width: 70em; /*coloca a tabela no centro da página*/
+    margin: 0 auto; /*coloca a tabela no centro da página*/
+}
+td,th{
+    border: 1px solid black;
+    padding: 1em; /*espaçamento interno*/
+}
+tr:nth-child(odd) /*aplica formatacões no enésimo filho. odd:ímpar - even:par*/
+{
+    background-color: aliceblue;
+}
