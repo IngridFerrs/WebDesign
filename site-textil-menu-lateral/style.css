@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #000000;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    background-image: url(fundo.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+
+
+header h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #e6e6e6;
+}
+
+
+
+.menu p {
+
+    font-size: 2rem;
+    color: #bbb9b9;
+
+    margin-bottom: 15%;
+
+
+
+}
+
+.menu nav {
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 50rem;
+}
+
+
+
+main {
+    display: flex;
+    flex: 1;
+
+
+}
+
+.menu {
+    background-color: #333131;
+    color: white;
+    width: 220px;
+    padding: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    flex-direction: column;
+    text-align: center;
+    flex-basis: 10%;
+
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+
+    transition: color 0.2s ease;
+
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: #c0e3f5;
+}
+
+article {
+    flex: 1;
+
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 10rem;
+    border: 2px solid rgb(88, 77, 77);
+
+}
+
+article h3 {
+    font-size: 3.0rem;
+    margin-bottom: 0.5rem;
+    color: #fffdfd;
+    padding-bottom: 15%;
+}
+
+article p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc7c7;
+}
+
+.miolo {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+
+
+.miolo_esquerdo {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.miolo_esquerdo p {
+
+
+    margin: 0.5%;
+    padding: 10%;
+    padding-top: 3.5%;
+}
+
+.miolo_esquerdo h3 {
+    padding-top: 30%;
+    padding-bottom: 2%;
+    margin: 0.5%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #ffffff;
+
+    background-color: #333131;
+    color: #000000;
+}
+
+.historia {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.miolo_esquerdo_historia p {
+
+
+
+    text-align: justify;
+    margin-top: 10rem;
+
+
+}
+
+.miolo_esquerdo_historia h3 {
+
+    text-align: left;
+    padding-bottom: 5rem;
+
+
+
+
+}
+
+.moda_consciente {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.moda_consciente section {
+    border: 2px solid rgb(53, 52, 52);
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 70%;
+    text-align: center;
+    gap: 15rem;
+
+}
+
+.moda_consciente h2 {
+    color: #bbb9b9;
+
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.produtos section {
+
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 30%;
+    text-align: center;
+
+}
+
+.produtos section img {
+
+    object-fit: cover;
+
+    object-position: center;
+
+    width: 20rem;
+    height: 20rem;
+}
+
+.fale_conosco {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    flex-basis: 50%;
+    justify-content: flex-start;
+
+}
+
+
+.formulario {
+
+    
+    padding: 10rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input,
+.formulario textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    resize: none;
+}
+
+.formulario button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #555;
+}
+
+.contato_texto {
+    display: flex;
+    align-items: flex-start;
+    width: 20rem;
+    margin: 10rem;
+
+}
+
+.contato_texto p {
+    font-size: 2rem;
+
+}
+
+
+.formulario label {
+    color: white;
+}
